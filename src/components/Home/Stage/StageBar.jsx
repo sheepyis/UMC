@@ -303,7 +303,7 @@ const StageItem = ({ stage, isRecruiting = false }) => {
     <Container>
       <StageBarP1>{stage.date}</StageBarP1>
       <StageBarP2>{stage.title}</StageBarP2>
-      {stage.type === "recruiting" ? (
+      {/* {stage.type === "recruiting" ? (
         <RecruitingBox>
           <RecruitingText>{RECRUITING_TEXT}</RecruitingText>
         </RecruitingBox>
@@ -314,7 +314,7 @@ const StageItem = ({ stage, isRecruiting = false }) => {
             <PeopleP>{stage.count}</PeopleP>
           </PeopleInner>
         </PeopleBox>
-      )}
+      )} */}
     </Container>
   );
 };
